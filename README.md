@@ -1,4 +1,4 @@
-# yggdrasill
+# yggdrasil
 
 > proxmox resources
 
@@ -6,7 +6,7 @@
 
 scripts for configuring debian-based vms
 
-## docs
+## yggdrasil-docs
 
 documentation, best read in [obsidian](https://obsidian.md/)
 
