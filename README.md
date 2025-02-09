@@ -31,7 +31,7 @@ git clone git@github.com:sauce-net/yggdrasil.git --recurse-submodules
 ### install dependencies
 
 ```powershell
-winget install Microsoft.VisualStudioCode
+winget install Microsoft.VisualStudioCode ElementLabs.LMStudio tailscale.tailscale
 winget install Microsoft.WindowsTerminal Microsoft.PowerShell
 winget install Git.Git Fork.Fork GitHub.GitHubCli Obsidian.Obsidian
 
