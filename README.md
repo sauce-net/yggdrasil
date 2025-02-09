@@ -2,11 +2,9 @@
 
 > proxmox resources
 
-## getting started
+## getting started: macos
 
-### macos
-
-#### install dependencies
+### install dependencies
 
 ```bash
 brew install git gh obsidian zed tailscale \
@@ -14,7 +12,7 @@ brew install git gh obsidian zed tailscale \
 && brew install --cask lm-studio
 ```
 
-#### auth
+### auth
 
 ```bash
 gh auth login -p ssh
@@ -22,15 +20,15 @@ gh auth setup-git
 tailscale up
 ```
 
-#### clone
+### clone
 
 ```bash
 git clone git@github.com:sauce-net/yggdrasil.git --recurse-submodules
 ```
 
-### windows
+## getting started: windows
 
-#### install dependencies
+### install dependencies
 
 ```powershell
 winget install Microsoft.VisualStudioCode
@@ -39,7 +37,7 @@ winget install Git.Git Fork.Fork GitHub.GitHubCli Obsidian.Obsidian
 
 ```
 
-#### auth
+### auth
 
 ```powershell
 gh auth login -p ssh
@@ -47,18 +45,18 @@ gh auth setup-git
 tailscale up
 ```
 
-#### clone
+### clone
 
 ```powershell
 git clone git@github.com:sauce-net/yggdrasil.git --recurse-submodules
 ```
 
-### lmstudio
+## getting started: lmstudio
 
-[getting started](https://lmstudio.ai/docs/basics)
-[downloading an llm](https://lmstudio.ai/docs/basics/download-model)
-[adding context](https://lmstudio.ai/docs/basics/rag)
-[managing chats](https://lmstudio.ai/docs/basics/chat)
+- [getting started](https://lmstudio.ai/docs/basics)
+- [downloading an llm](https://lmstudio.ai/docs/basics/download-model)
+- [adding context](https://lmstudio.ai/docs/basics/rag)
+- [managing chats](https://lmstudio.ai/docs/basics/chat)
 
 ## yggdrasil-docs
 
