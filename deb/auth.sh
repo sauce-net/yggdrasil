@@ -1,3 +1,7 @@
+#!/bin/bash
+
+. ./common.sh --source-only
+
 git_config () {
   echo "configuring git..."
   sudo apt install git gh -y
