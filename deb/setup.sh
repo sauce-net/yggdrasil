@@ -1,10 +1,6 @@
 #!/bin/bash
 
-p_done () {
-  DIV="-------------------------------------------------------------------------------"
-  echo "done!"
-  echo $DIV
-}
+. ./common.sh --source-only
 
 hush_login () {
   echo "hush login..."
