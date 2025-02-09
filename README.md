@@ -14,7 +14,10 @@ brew install git gh obsidian zed \
 ### windows
 
 ```powershell
-winget install
+winget install Microsoft.VisualStudioCode
+winget install Microsoft.WindowsTerminal Microsoft.PowerShell
+winget install Git.Git Fork.Fork GitHub.GitHubCli Obsidian.Obsidian
+
 ```
 
 ## yggdrasil-docs
