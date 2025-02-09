@@ -1,0 +1,3 @@
+[submodule "dcs"]
+	path = dcs
+	url = git@github.com:sauce-net/dcs.git
