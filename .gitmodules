@@ -1,3 +1,6 @@
 [submodule "dcs"]
 	path = dcs
 	url = git@github.com:sauce-net/dcs.git
+[submodule "lxc"]
+	path = lxc
+	url = git@github.com:sauce-net/lxc.git
