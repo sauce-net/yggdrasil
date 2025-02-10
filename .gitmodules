@@ -4,3 +4,6 @@
 [submodule "lxc"]
 	path = lxc
 	url = git@github.com:sauce-net/lxc.git
+[submodule ".sauce"]
+	path = .sauce
+	url = git@github.com:codyconfer/.sauce.git
